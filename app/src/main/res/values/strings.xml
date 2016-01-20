@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">appGPSQR</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="latitud">LATITUD</string>
+    <string name="longitud">LONGITUD</string>
+    <string name="destino">Destino</string>
+    <string name="qr_irreconocible">El código QR no se ha podido reconocer</string>
+    <string name="action_settings">Settings</string>
+    <string name="instrucciones">Esta app esta pensada para leer códigos QR del tipo:</string>
+    <string name="qr_inexistente">No se ha reconocido ningún código QR</string>
+    <string name="escaneando">Escaneando</string>
+</resources>
