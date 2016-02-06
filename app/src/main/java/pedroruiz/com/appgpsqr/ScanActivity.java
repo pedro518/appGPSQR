@@ -23,6 +23,9 @@ public class ScanActivity extends AppCompatActivity {
 
     }
 
+    /** Gestiona los click que se realizan
+     * @param view Vista (referencia) del botón que se ha pulsado
+     */
     public void onClick(View view) {
         switch (view.getId()){
             case (R.id.btnscan):
@@ -35,6 +38,12 @@ public class ScanActivity extends AppCompatActivity {
         }
     }
 
+    /** Esta función se encarga de gestionar los resultados de las actividades que se lanzan
+     *
+     * @param requestCode
+     * @param resultCode
+     * @param data
+     */
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         if ( data != null ) {

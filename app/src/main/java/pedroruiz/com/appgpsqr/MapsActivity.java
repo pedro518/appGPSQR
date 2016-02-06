@@ -14,8 +14,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private Float mLatitud;
-    private Float mLongitud;
+    private Float mLatitud; //Almacena la latitud
+    private Float mLongitud; //Almacena la longitud
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
